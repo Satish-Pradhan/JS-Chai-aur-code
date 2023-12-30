@@ -38,3 +38,30 @@ const anotherId = Symbol('123') // Symbol
 //All non primitive data type return type is Object.
  
  console.log(typeof outsideTemp); // Object
+
+
+
+ //******************** Memory ********************************
+
+ // Stack (Primitive) , Heap (Non-Primitive)
+
+ let myYoutubename = "hiteshchoudhurydotcom"
+
+ let anotherName = myYoutubename
+ anotherName = "chaiaurcode"
+
+ console.log(myYoutubename);
+ console.log(anotherName);
+
+ let userOne ={
+   email: "user@google.com",
+   upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "satish@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
