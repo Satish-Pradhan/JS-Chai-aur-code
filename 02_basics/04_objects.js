@@ -31,7 +31,7 @@ const obj3 = {5: "a", 6: "b"}
 //const obj4 = {obj1, obj2}
 //const obj4 = Object.assign({}, obj1, obj2, obj3)
 const obj4 = {...obj1, ...obj2} //SPREAD ---> { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }  // ALWAYS usefull
-console.log(obj4);
+//console.log(obj4);
 
 const users = [
     {
@@ -48,8 +48,44 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);//{ id: '123abc', name: 'Satish', isLoggedIn: false }
+//console.log(tinderUser);//{ id: '123abc', name: 'Satish', isLoggedIn: false }
 
 //nsole.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Satish' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
+//console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
+
+
+//***********  De-Structure  ********//
+
+
+const course = {
+    coursename :  "js in hindi" ,
+    price : "999" ,
+    courseInstructor : "Hitesh"
+}
+
+// console.log(course.courseInstructor); // normal method to access
+
+//const {courseInstructor} = course // preferable method to access the object
+//console.log(courseInstructor); 
+const {courseInstructor : instructor} = course //Destructure
+console.log(instructor);
+
+
+///// API ---  example of JSON
+/*
+{
+    "name" : "Satish" ,
+    "coursename": "js chai aur code",
+    "price":"free"
+
+}
+*/
+//other type of API
+/*
+[
+    {},
+    {},
+    {}
+]
+*/
