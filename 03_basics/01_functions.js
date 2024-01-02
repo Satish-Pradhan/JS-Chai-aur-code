@@ -59,13 +59,15 @@ function loginUserMessage(username = "Rahul"){     //default value Rahul
 
 /*
   function calculateCartPrice(...num1){
+   // ... is called Rest
      return num1
   }
   
 console.log(calculateCartPrice(200,400,500,2000)); //[ 200, 400, 500, 2000 ]
 */
 /*
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){ 
+     // ... is called Rest
    return num1
 }
 console.log(calculateCartPrice(200, 400, 500, 2000));//[500, 2000]
