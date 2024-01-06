@@ -50,7 +50,7 @@ const users = [
 users[1].email
 //console.log(tinderUser);//{ id: '123abc', name: 'Satish', isLoggedIn: false }
 
-//nsole.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Satish' ], [ 'isLoggedIn', false ] ]
+//cnsole.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Satish' ], [ 'isLoggedIn', false ] ]
 
 //console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
 
