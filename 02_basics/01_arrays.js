@@ -26,7 +26,7 @@ const myArr2 = new Array(2, 3, 5, 7, 9);
 
 const newArr = myArr.join()
 
-// console.log(myArr); //
+ //console.log(myArr); // [ 0, 1, 2, 3, 4, 5 ]
 // console.log(newArr); // 0,1,2,3,4,5
 // console.log(typeof newArr); // string
 
